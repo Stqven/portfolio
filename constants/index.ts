@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { SiNextdotjs } from "react-icons/si";
 
-import carhubImg from "@/public/carhub.png";
+import ZotbinsImg from "@/public/ZotBins.png";
 import realtorImg from "@/public/realtor.png";
 import ecommerceImg from "@/public/ecommerce.png";
 
@@ -42,7 +42,7 @@ export const EXTRA_LINKS = {
   github: "https://github.com/Stqven",
   resume: "https://black-kelila-29.tiiny.site/",
   source_code: "https://github.com/sanidhyy/portfolio",
-  email: "sanidhya.verma12345@gmail.com",
+  email: "Stevenlee102004@gmail.com",
 } as const;
 
 // Data for work experience
@@ -80,12 +80,12 @@ export const EXPERIENCES_DATA = [
 // Data for projects
 export const PROJECTS_DATA = [
   {
-    title: "CarHub",
+    title: "ZotBins",
     description:
-      "A web app that is built using NextJS and enables users to quickly search and obtain information about cars.",
-    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Headless UI"],
-    imageUrl: carhubImg,
-    projectUrl: "https://carhb.vercel.app/",
+      "An independent group of undergraduate researchers passionate about technology-based zero waste management.",
+    tags: ["AWS", "C#", "API", "Node.js", "AWS lambda", "PostgreSQL"],
+    imageUrl: ZotbinsImg,
+    projectUrl: "https://zotbins.org/",
   },
   {
     title: "Realtor",
