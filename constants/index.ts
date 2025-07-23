@@ -38,9 +38,9 @@ export const LINKS = [
 
 // External links
 export const EXTRA_LINKS = {
-  linkedin: "https://www.linkedin.com/in/sanidhyy",
-  github: "https://github.com/sanidhyy",
-  resume: "/resume.pdf",
+  linkedin: "https://www.linkedin.com/in/steven-lee35/",
+  github: "https://github.com/Stqven",
+  resume: "https://black-kelila-29.tiiny.site/",
   source_code: "https://github.com/sanidhyy/portfolio",
   email: "sanidhya.verma12345@gmail.com",
 } as const;
@@ -129,4 +129,4 @@ export const SKILLS_DATA = [
 ] as const;
 
 // Owner name
-export const OWNER_NAME = "Sanidhya Kumar Verma";
+export const OWNER_NAME = "Steven Lee";
