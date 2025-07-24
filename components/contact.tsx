@@ -5,7 +5,6 @@ import emailjs, { type EmailJSResponseStatus } from "@emailjs/browser";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { createRef, FormEvent, useRef, useState } from "react";
-import ReCAPTCHA from "react-google-recaptcha";
 import toast from "react-hot-toast";
 import { FaPaperPlane } from "react-icons/fa";
 
@@ -26,7 +25,6 @@ const Contact = () => {
     message: "",
   });
 
-  const recaptchaRef = createRef<ReCAPTCHA>();
 
   // Handle form field changes.
   const handleChange = (e: FormEvent) => {
@@ -35,8 +33,7 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
-  const handleCaptchaChange = (value: string | null) => {
-    if (!value) return;
+  const handlesubmission = () => {
 
     emailjs
       .send(
@@ -47,8 +44,6 @@ const Contact = () => {
           to_email: form.email,
           message: form.message,
 
-          // verifying google recaptcha
-          "g-recaptcha-response": value,
         },
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || ""
       )
@@ -68,7 +63,6 @@ const Contact = () => {
       .finally(() => {
         // Clear the loading indicator, and reset the form fields.
         setLoading(false);
-        recaptchaRef?.current?.reset();
         setForm({
           name: "",
           email: "",
@@ -117,14 +111,10 @@ const Contact = () => {
 
     // Show a loading indicator.
     setLoading(true);
+    handlesubmission();
 
-    if (!recaptchaRef) return;
-
-    // execute google recaptcha
-    recaptchaRef.current?.execute();
   };
 
-  const siteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
 
   // Return the Contact section with animations and the contact form.
   return (
@@ -203,16 +193,6 @@ const Contact = () => {
           maxLength={500}
         />
 
-        {siteKey && (
-          <ReCAPTCHA
-            ref={recaptchaRef}
-            aria-disabled={loading}
-            size="invisible"
-            sitekey={siteKey}
-            onChange={handleCaptchaChange}
-            className="mb-4"
-          />
-        )}
 
         {/* Submit button with conditional rendering for loading state. */}
         <button
