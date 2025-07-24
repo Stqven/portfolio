@@ -28,7 +28,7 @@ const About = () => {
 
       {/* Display a paragraph with information about the user's background and interests. */}
       <p className="mb-3">
-        I got my start in a <b className="font-medium">High School</b>, programming
+        I got my start in a <b className="font-medium">High School</b> programming
         class and have been building my fundamentals ever since, learning technologies like React, Next.js, Node.js, MySQL, TypeScript, Python, and Prisma.{" "}
         <b className="font-medium">Currently</b>{" "}
         I’m diving into AWS and cloud infrastructure to broaden my backend skills.
@@ -36,10 +36,10 @@ const About = () => {
 
       {/* Display another paragraph about the user's interests and hobbies. */}
       <p>
-        <i className="italic">When I'm not coding</i>, I enjoy hiking
+        <i className="italic">When I'm not coding</i>, I enjoy ,
         lifting weights, watching movies, and trying new cafe spots. I'm always curious, {" "}
-        <b className="font-medium">learning new things</b>, and I am currently
-        seeking my next opportunity.
+        <b className="font-medium">learning new things</b>, and
+        seeking my next opportunities.
       </p>
     </motion.section>
   );

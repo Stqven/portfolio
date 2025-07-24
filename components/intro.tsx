@@ -68,9 +68,9 @@ const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <b className="font-bold">Hi, I&apos;m {OWNER_NAME.split(" ")[0]}.</b>{" "}
-        I&apos;m a <b className="font-bold">a fourth year CS student at the University of California, Irvine</b> and{" "}
-        <b className="font-bold">passionate software engineers</b> with 5+ years of experience.
+        <b className="font-bold">Hi, I&apos;m {OWNER_NAME.split(" ")[0]}!</b>{" "}
+        I&apos;m a <b className="font-bold">a fourth year CS major at the University of California, Irvine</b> and{" "}
+        <b className="font-bold">a passionate software engineer</b> with 5+ years of experience.
       </motion.h1>
 
       <motion.div
