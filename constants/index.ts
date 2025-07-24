@@ -5,8 +5,9 @@ import { LuGraduationCap } from "react-icons/lu";
 import { SiNextdotjs } from "react-icons/si";
 
 import ZotbinsImg from "@/public/ZotBins.png";
-import realtorImg from "@/public/realtor.png";
-import ecommerceImg from "@/public/ecommerce.png";
+import CZIImage from "@/public/CziEdsight.png";
+import Boundary from "@/public/Boundary.png";
+import Paper from "@/public/Paper.png"
 
 // Navigation links
 export const LINKS = [
@@ -88,20 +89,28 @@ export const PROJECTS_DATA = [
     projectUrl: "https://zotbins.org/",
   },
   {
-    title: "Realtor",
+    title: "CZI Edsight",
     description:
-      "Buy and rent homes for everyone. I was the front-end developer. It has features like filtering, sorting, and pagination.",
-    tags: ["React", "Chakra UI", "Next.js", "Framer Motion", "React Icons"],
-    imageUrl: realtorImg,
-    projectUrl: "https://real-estate-app-react.vercel.app/",
+      "Edsight is a visual analytics platform designed to spur new insight, learning, and decision-making for teachers.",
+    tags: ["TypeScript", "OpenAI API", "Next.js", "Prisma", "Tailwind"],
+    imageUrl: CZIImage,
+    projectUrl: "https://www.daplab.education.uci.edu/edsight",
   },
   {
-    title: "ECommerce Store",
+    title: "SWE intern @ Boundary RSS",
     description:
-      "A NextJS-based eCommerce store that allows users to order different products. It supports real-time payments using Stripe.",
-    tags: ["React", "Next.js", "Sanity", "React Router", "Stripe"],
-    imageUrl: ecommerceImg,
-    projectUrl: "https://ecommerce-app-next.vercel.app/",
+      "geospatial surveys and AI to generate accurate, detailed visualizations of underground environments.",
+    tags: ["Pytorch", "Numpy", "CuPY", "Python"],
+    imageUrl: Boundary,
+    projectUrl: "https://www.boundaryrss.org/",
+  },
+    {
+    title: "Clean Paws",
+    description:
+      "an efficient self-classifying recycling bin, addressing the challenge of recyclable misclassification and its environmental consequences",
+    tags: ["Yolov5", "Machine Learning", "HTML", "CSS", "Flask", "IOT"],
+    imageUrl: Paper,
+    projectUrl: "https://docs.google.com/document/d/1MzFS2XWc-_gRFI0K6SFnOkj9-3Ks-DOUtcJh1F2Uufw/edit?tab=t.0",
   },
 ] as const;
 
@@ -116,16 +125,14 @@ export const SKILLS_DATA = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Shadcn UI",
-  "Three.js",
-  "Framer Motion",
   "Prisma",
   "MySQL",
   "PostgreSQL",
-  "Redux",
-  "Express",
   "Python",
-  "Django",
+  "C++",
+  "C#",
+  "AWS",
+  
 ] as const;
 
 // Owner name
