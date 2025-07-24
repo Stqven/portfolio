@@ -1,8 +1,7 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import { SiNextdotjs } from "react-icons/si";
+import { LuGraduationCap, LuBrain, LuSchool} from "react-icons/lu";
+import { FaCodeBranch, FaChalkboardTeacher, FaUsers } from "react-icons/fa";
+import { BiServer } from "react-icons/bi";
 
 import ZotbinsImg from "@/public/ZotBins.png";
 import CZIImage from "@/public/CziEdsight.png";
@@ -49,31 +48,52 @@ export const EXTRA_LINKS = {
 // Data for work experience
 export const EXPERIENCES_DATA = [
   {
-    title: "Passed High School",
+    title: "ICS Lab Tutor",
     description:
-      "Completed my high school curriculum, gaining a solid foundation in various subjects and essential skills.",
+      "Tutored students in Python fundamentals and supported inclusive, collaborative learning environments in lab sessions.",
     icon: React.createElement(LuGraduationCap),
-    date: "2022",
-  },
-  {
-    title: "React.js Bootcamp",
-    description:
-      "Successfully completed an intensive 1-month React.js Developer Bootcamp. Acquired expertise in React components, state management with Redux, and interacting with RESTful APIs.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2023",
-  },
-  {
-    title: "Freelancer React.js Developer",
-    description:
-      "Worked as a freelance React.js Developer, I have collaborated with various clients to create responsive and dynamic web applications.",
-    icon: React.createElement(FaReact),
     date: "2023 - 2024",
   },
   {
-    title: "Jaro Dev Studio",
+    title: "Research Assistant @ Mathe Lab",
     description:
-      "Currently working as a Full-stack Next.js Developer, building responsive and dynamic web applications using Next.js, Tailwind CSS and OpenAI.",
-    icon: React.createElement(SiNextdotjs),
+      "Enhanced a learning model with graph theory to improve prediction accuracy and evaluate learning strategies.",
+    icon: React.createElement(LuBrain),
+    date: "2024",
+  },
+  {
+    title: "SWE Intern @ Boundary RSS",
+    description:
+      "Improved deep learning pipelines and optimized model speed using cutting-edge AI and geospatial toolss.",
+    icon: React.createElement(FaCodeBranch),
+    date: "2024 - 2025",
+  },
+  {
+    title: "Director of Proffessional Development",
+    description:
+      "Organized mentorship programs and career workshops to support member growth and professional development.",
+    icon: React.createElement(FaChalkboardTeacher),
+    date: "2024 - 2025",
+  },
+  {
+    title: "Community Lead @ AI@UCI",
+    description:
+      "Coordinated large-scale events and managed engagement efforts to build a strong student AI community.",
+    icon: React.createElement(FaUsers),
+    date: "2024 - 2025",
+  },
+  {
+    title: "Research Assistant @ DAP Lab",
+    description:
+      "Built AI-integrated education tools by replacing OpenAI with ZotGPT and developing Prisma/Next.js functions.",
+    icon: React.createElement(LuSchool),
+    date: "2024 - present",
+  },
+  {
+    title: "API Team Lead @ ZotBins",
+    description:
+      "Led backend development and technical direction for real-time API systems supporting smart bin data collection",
+    icon: React.createElement(BiServer),
     date: "2024 - present",
   },
 ] as const;
