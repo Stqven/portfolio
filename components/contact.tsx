@@ -75,6 +75,7 @@ const Contact = () => {
   const validateForm = (): boolean => {
     // Extract form fields.
     const { name, email, message } = form;
+    console.log(name, email, message);
 
     // Validate the name field.
     if (name.trim().length < 3) {
