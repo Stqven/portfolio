@@ -7,6 +7,10 @@ import ZotbinsImg from "@/public/ZotBins.png";
 import CZIImage from "@/public/CziEdsight.png";
 import Boundary from "@/public/Boundary.png";
 import Paper from "@/public/Paper.png"
+import CoStarLogo from "@/public/costar-logo.png";
+import UNCLogo from "@/public/unc-logo.png";
+import UCILogo from "@/public/uci-logo.png";
+import WaveLogo from "@/public/wave-logo.png";
 
 // Navigation links
 export const LINKS = [
@@ -86,6 +90,38 @@ export const EXPERIENCES_DATA = [
 
 // Data for projects
 export const PROJECTS_DATA = [
+  {
+    title: "Software Engineering Intern @ CoStar Group",
+    description:
+      "Reached 100% MCP tool coverage for the Homes AI advisor via 60+ automated C#/.NET Playwright tests, and cut request errors 30% across 90K+ monthly requests.",
+    tags: ["C#", ".NET", "Playwright", "MCP", "Datadog", "Azure"],
+    imageUrl: CoStarLogo,
+    projectUrl: "https://www.costargroup.com/",
+  },
+  {
+    title: "Software Engineering Intern @ WaveAutomate",
+    description:
+      "Built a multilingual Vapi workflow across 3 languages to prevent dental practices from missing 30-40% of inbound calls, and halved operational costs by migrating to RetellAI.",
+    tags: ["Vapi", "RetellAI", "Next.js", "Drizzle", "PostgreSQL"],
+    imageUrl: WaveLogo,
+    projectUrl: "https://waveautomate.com/",
+  },
+  {
+    title: "Software Engineer (Contract) @ University of North Carolina",
+    description:
+      "Restored survey sharing for 200+ users, streamlined creation of 300+ surveys, and built MySQL/Nivo dashboards visualizing 1,000+ submissions.",
+    tags: ["Go", "TypeScript", "Next.js", "AWS Amplify", "Google APIs"],
+    imageUrl: UNCLogo,
+    projectUrl: "https://www.unc.edu/",
+  },
+  {
+    title: "Software Engineer (Contract) @ UC Irvine",
+    description:
+      "Automated grading of 108,000+ student reflections with a FastAPI/OpenAI scoring API and a JWT-secured Stripe portal for credit purchases.",
+    tags: ["FastAPI", "Python", "AWS Aurora", "Stripe", "Docker"],
+    imageUrl: UCILogo,
+    projectUrl: "https://uci.edu/",
+  },
   {
     title: "ZotBins",
     description:
