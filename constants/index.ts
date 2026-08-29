@@ -42,7 +42,7 @@ export const LINKS = [
 
 // External links
 export const EXTRA_LINKS = {
-  linkedin: "https://linkedin.com/in/steven-lee",
+  linkedin: "https://www.linkedin.com/in/steven-lee35",
   github: "https://github.com/Stqven",
   resume: "https://azure-antonie-56.tiiny.site",
   source_code: "https://github.com/sanidhyy/portfolio",
