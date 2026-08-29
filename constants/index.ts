@@ -52,6 +52,55 @@ export const EXTRA_LINKS = {
 // Data for work experience
 export const EXPERIENCES_DATA = [
   {
+    title: "ICS Lab Tutor",
+    description:
+      "Tutored students in Python fundamentals and supported inclusive, collaborative learning environments in lab sessions.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023 - 2024",
+  },
+  {
+    title: "Research Assistant @ Mathe Lab",
+    description:
+      "Enhanced a learning model with graph theory to improve prediction accuracy and evaluate learning strategies.",
+    icon: React.createElement(LuBrain),
+    date: "2024",
+  },
+  {
+    title: "SWE Intern @ Boundary RSS",
+    description:
+      "Improved deep learning pipelines and optimized model speed using cutting-edge AI and geospatial toolss.",
+    icon: React.createElement(FaCodeBranch),
+    date: "2024 - 2025",
+  },
+  {
+    title: "Director of Proffessional Development",
+    description:
+      "Organized mentorship programs and career workshops to support member growth and professional development.",
+    icon: React.createElement(FaChalkboardTeacher),
+    date: "2024 - 2025",
+  },
+  {
+    title: "Community Lead @ AI@UCI",
+    description:
+      "Coordinated large-scale events and managed engagement efforts to build a strong student AI community.",
+    icon: React.createElement(FaUsers),
+    date: "2024 - 2025",
+  },
+  {
+    title: "Research Assistant @ DAP Lab",
+    description:
+      "Built AI-integrated education tools by replacing OpenAI with ZotGPT and developing Prisma/Next.js functions.",
+    icon: React.createElement(LuSchool),
+    date: "2024 - present",
+  },
+  {
+    title: "API Team Lead @ ZotBins",
+    description:
+      "Led backend development and technical direction for real-time API systems supporting smart bin data collection",
+    icon: React.createElement(BiServer),
+    date: "2024 - present",
+  },
+  {
     title: "Software Engineering Lead @ Design And Partnership",
     description:
       "Delivered instant grading insights on 1,000+ responses for 25+ researchers by building Next.js Server Actions into Prisma, and cut grading pipeline costs to zero across 1,000+ submissions by migrating from OpenAI to ZotGPT.",
