@@ -29,9 +29,9 @@ const About = () => {
       {/* Display a paragraph with information about the user's background and interests. */}
       <p className="mb-3">
         I got my start in a <b className="font-medium">High School</b> programming
-        class and have been building my fundamentals ever since, learning technologies like React, Next.js, Node.js, MySQL, TypeScript, Python, and Prisma.{" "}
+        class and have been building my fundamentals ever since, learning technologies like React, Next.js, Node.js, Go, MySQL, TypeScript, Python, and Prisma.{" "}
         <b className="font-medium">Currently</b>{" "}
-        I’m diving into AWS and cloud infrastructure to broaden my backend skills.
+        I&apos;m a software engineering intern at CoStar Group, working on MCP tooling, AI advisors, and CI/CD test automation, while continuing part-time software engineering contracts for UC Irvine and UNC.
       </p>
 
       {/* Display another paragraph about the user's interests and hobbies. */}
